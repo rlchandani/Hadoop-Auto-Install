@@ -1,0 +1,12 @@
+==> Welcome to Hadoop Auto Install <==
+
+Description: This script will help you automate Hadoop installation on your Ubuntu machine. Currently it has been tested on Ubuntu v11.04 & v11.10.
+
+How to use: Before starting you need ip addresses of you master & slaves machines. This information have to be saved in hadoop_install.conf file, You can use the default content in file to add your machines ips (Just change the ips).
+Copy both of these files on to each machine and make hadoop_install.sh executable by changing its executable permission (sudo chmod +x hadoop_install.sh) and execute it by ./hadoop_install.sh.
+Select type of the machine that you want it to eg: master or slave and let it finish.
+You can view the installation log in /tmp/hadoop_install.log file.
+
+Note: This will download apache hadoop zip file from apache server (size: approx. 55 MB), Additionally you can change other small params like hadoop user account name, hadoop file version to download, etc in hadoop_install.sh (Only for expert users)
+
+Please post if you face any problem or need additional help.
