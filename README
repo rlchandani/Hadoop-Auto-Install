@@ -1,4 +1,4 @@
-==> Welcome to Hadoop Auto Install <==
+### Welcome to Hadoop Auto Install
 
 Description: This script will help you automate Hadoop installation on your Ubuntu machine. Currently it has been tested on Ubuntu v11.04 & v11.10.
 
